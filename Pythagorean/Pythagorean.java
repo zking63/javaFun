@@ -1,9 +1,6 @@
-import static java.lang.Math.sqrt;
+import java.lang.Math;
 public class Pythagorean {
-    public int calculateHypotenuse(int legA, int legB) {
-        // the hypotenuse is the side across from the right angle.
-        // calculate the value of c given legA and legB
-        int add = (legA + legA) + (legB + legB);
-        return add;
+    public static double calculateHypotenuse (int lenA, int lenB) {
+        return Math.sqrt((lenA * lenA ) + (lenB * lenB));
     }
 }
